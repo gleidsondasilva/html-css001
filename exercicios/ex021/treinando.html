@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinos</title>
+    <style>
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgray;
+        margin: 0;
+       }
+
+       header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+       }
+
+       main {
+       background-color: white;
+       padding: 10px;
+       margin: 10px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        padding: 1px;
+        text-align: center;
+        margin: 0;
+    }
+
+    article {
+        background-color: lightgray;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    article > aside {
+        background-color: rgb(163, 162, 162);
+    }
+    
+   
+    .moreno {
+        
+        color: black;
+        
+
+    }
+
+        .moreno > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .moreno a:hover {
+        text-decoration: underline;
+    }
+
+    .moreno::after {
+        content: '✔';
+    }
+    
+    nav {
+        background-color: rgb(122, 122, 122);
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        margin: 30px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+      
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Meu Site</h1>
+       <nav>
+        <a href="#">Política</a>
+        <a href="#">Esporte</a>
+        <a href="#">Modas</a>
+        <a href="#">Entretenimento</a>
+        <a href="#">Saúde</a>
+        <a href="#">Ciência</a>
+        <a href="#">Cultura</a>
+       
+
+       </nav>
+    </header>
+    <main>
+        <section id="esp">
+            <p>Esportes Pesados</p>
+           
+        </section>
+        <section>
+            <article>
+                <h2>Noticias Atualizadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae necessitatibus rem optio placeat aut neque repellendus consequuntur facilis amet accusantium impedit repudiandae minima ea reiciendis alias cumque aliquam, iste praesentium.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                 <h2>Tabelas</h2>
+                 <ul>
+                    <li class="moreno">playstation <a href="https://www.playstation.com.br" target="_blank">link</a></li>
+                    <ol>
+                        <li>aventuras</li>
+                        <li>acao</li>
+                        <ol>
+                            <li>Futebol</li>
+                        </ol>
+                    </ol>
+                 
+                 <li class="moreno">Xbox <a href="https://www.xbox.com" target="_blank">link</a></li>
+                 <ol>
+                    <li>Dança</li>
+                    <li>RPG</li>
+                    <ol>
+                        <li>Xadrez</li>
+                    </ol>
+                 </ol>
+                </ul>
+            
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gleidson da Silva Nascimento</p>
+    </footer>
+</body>
+</html>
