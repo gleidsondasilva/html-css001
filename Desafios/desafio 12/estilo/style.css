@@ -88,7 +88,7 @@ section.imagem > p {
 
 section#img001 {
     background-image: url('../imagens/ai-generated-8542971_1280.jpg');
-    background-position: right center;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 }
