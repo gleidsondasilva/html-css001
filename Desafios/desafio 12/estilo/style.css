@@ -95,7 +95,7 @@ section#img001 {
 
 section#img002 {
     background-image: url('../imagens/cat-8747164_1280.png');
-    background-position: center center;
+    background-position: left center;
     background-size: cover;
     background-attachment: fixed;
 }
