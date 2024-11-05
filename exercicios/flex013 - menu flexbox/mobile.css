@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header,header > nav {
+    flex-flow: column nowrap;
+    background-image: linear-gradient(to left, PaleTurquoise, LightGoldenrodYellow);
+}
+
+header > h1 {
+    flex-basis: 50px;
+    color: black;
+    text-decoration: underline;
+}
+
+header > nav > a {
+    width: 90vw;
+}
+
+body {
+    background-image: url(imagens/energia-nuclear-ia-inovacao-futura-de-tecnologia-disruptiva_53876-129784.avif);
+    background-size: cover;
+    background-position: right top;
+}
+
